@@ -1,7 +1,6 @@
 <?php
 if (session_id() === '') session_start();
 
-// Chỉ khai báo class một lần duy nhất
 class Customer {
     public $id, $username, $password, $fullname, $address, $phone, $gender, $birthday;
 
