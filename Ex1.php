@@ -2,7 +2,7 @@
 class Pet{
     public $name;
     function __construct($name){
-        $this->name = $pet_name;
+        $this->name = $name;
     }
     function eat(){
         echo "$this->name is eating.";
